@@ -1,0 +1,45 @@
+/* Login Component */
+.main-card-login{
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    top: 60px;
+    bottom: 4px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #e5e7ea;
+    overflow-y: auto;
+  }
+  
+  
+  .username-input, .password-input {
+    width: 7px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  label{
+    display:block;
+    font-size:11px;
+    font-weight:bold;
+    text-align:right;
+  }
+  
+  .btn-login{
+    background-color: lightpink;
+    color: white;
+    padding: 14px 33px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
